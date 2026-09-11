@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: birmingham-smart-transport-assistant
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: TFWM_APP_ID
+        sync: false
+      - key: TFWM_APP_KEY
+        sync: false
+      - key: REFRESH_SECONDS
+        value: "60"

@@ -1,0 +1,27 @@
+{
+  "project": "Birmingham Smart Public Transport Assistant",
+  "version": "1.0.0-production",
+  "created": "2026-09-11T12:21:29.634496Z",
+  "architecture": [
+    "Browser frontend",
+    "FastAPI backend",
+    "TfWM GTFS-RT client",
+    "Journey engine",
+    "ML ETA model"
+  ],
+  "credentials": "server_environment_only",
+  "live_refresh_seconds": 60,
+  "cloud_provider_config": "render.yaml",
+  "cloudpickle_runtime": false,
+  "json_serialization_fix": true,
+  "numpy_json_safe": true,
+  "chat_endpoint_test": true,
+  "valid_json_response": true,
+  "schedule_storage": "gzip",
+  "schedule_file": "data/static/schedule_data.csv.gz",
+  "github_file_size_check": true,
+  "pycache_removed": true,
+  "compression_test": true,
+  "post_compression_health_test": true,
+  "post_compression_chat_test": true
+}
